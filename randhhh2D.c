@@ -7,6 +7,7 @@ Implementation of the 2-dimensional Randomized Hierarchical Heavy Hitters algori
 
 #include <stdlib.h>
 #include <stdio.h>
+#include <time.h>
 
 //for debugging purposes only
 #include <assert.h> 
@@ -49,7 +50,7 @@ double twototheminus(int k) {
 void init(double SSepsilon, double prob) {
 	int i;
 	SSepsval = SSepsilon;
-	srand(SEED);
+	srand(time(NULL));
 #ifdef PROB
 	ignoreProb = 1 - prob;
 	logIgnoreProb = log(ignoreProb);

@@ -1,8 +1,8 @@
 #!/bin/bash
-FILEURL=https://data.caida.org/datasets/passive-2016/equinix-chicago/20160121-130000.UTC/equinix-chicago.dirA.20160121-125911.UTC.anon.pcap.gz
+FILEURL=https://data.caida.org/datasets/passive-2014/equinix-sanjose/20140320-130000.UTC/equinix-sanjose.dirA.20140320-130000.UTC.anon.pcap.gz
 #ATTENTION: THIS SCRIPT WILL FAIL WITHOUT A USERNAME AND PASSWORD. PLEASE VISIT www.caida.org.
 
-#USERPASS=username:password #Enter your credentials!
+USERPASS=lecheng.fan@stanford.edu:bigfatpipe #Enter your credentials!
 
 curl -u $USERPASS $FILEURL > data.pcap.gz
 
