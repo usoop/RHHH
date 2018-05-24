@@ -27,11 +27,11 @@ def extract_coverage_error_rates(results_obj):
 	    for trial in results_obj[packet_num]:
 		coverage_errors = trial["coverage_errors"]
 		num_exact_hhh = trial["num_exact_hhh"]
-		error_rates.append(float(coverage_errors)/float(num_exact_hhh))
+		error_rates.append(100*float(coverage_errors)/float(num_exact_hhh))
 	    packet_num_to_coverage[packet_num] = confidence_interval_95(error_rates)
 	return packet_num_to_coverage
 
-def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name):
+def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name, x_label, y_label):
 	x_val = [rhh_confidence_intervals.keys(), _10_rhh_confidence_intervals.keys()]
 	intervals = [rhh_confidence_intervals.values(), _10_rhh_confidence_intervals.values()]
 	y_val = [[], []]
@@ -44,8 +44,8 @@ def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name):
 	ax = fig.add_subplot(111)
 	ax.errorbar(x_val[0], y_val[0], yerr=y_err[0], color="red", marker='o', capsize=5, ls="none")
 	ax.errorbar(x_val[1], y_val[1], yerr=y_err[1], color="blue", marker='o', capsize=5, ls="none")
-	ax.set_xlabel("Number of packets")
-	ax.set_ylabel("Accuracy Error Rate (%)")
+	ax.set_xlabel(x_label)
+	ax.set_ylabel(y_label)
 	ax.set_ylim([0,100])
 	ax.set_xscale("log")
 	plt.title(graph_name)
@@ -72,8 +72,8 @@ def main():
 	_10_accuracy_error_rates = extract_accuracy_error_rates(_10_rhhh_results)
 	_10_coverage_error_rates = extract_coverage_error_rates(_10_rhhh_results)
 
-	graph(accuracy_error_rates, _10_accuracy_error_rates, "accuracy error rates")
-	graph(coverage_error_rates, _10_coverage_error_rates, "coverage error rates")
+	graph(accuracy_error_rates, _10_accuracy_error_rates, graph_name="accuracy error rates", x_label="Number of Packets", y_label="Accuracy Error Rate (%)")
+	graph(coverage_error_rates, _10_coverage_error_rates, graph_name="coverage error rates", x_label="Number of Packets", y_label="Coverage Error Rate (%)")
 
 if __name__ == "__main__":
 	main()
