@@ -16,7 +16,7 @@ def extract_accuracy_error_rates(results_obj):
 	    for trial in results_obj[packet_num]:
 		accuracy_errors = trial["accuracy_errors"]
 		num_hhh = trial["num_reported_hhh"]
-		error_rates.append(float(accuracy_errors)/float(num_hhh))
+		error_rates.append(100*float(accuracy_errors)/float(num_hhh))
 	    packet_num_to_accuracy[packet_num] = confidence_interval_95(error_rates)
 	return packet_num_to_accuracy
 
@@ -42,8 +42,11 @@ def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name):
 	        y_err[i].append((interval[1]-interval[0])/2)
 	fig = plt.figure()
 	ax = fig.add_subplot(111)
-	bp = ax.errorbar(x_val[0], y_val[0], yerr=y_err[0], color="red", marker='o', capsize=5, ls="none")
-	bp = ax.errorbar(x_val[1], y_val[1], yerr=y_err[1], color="blue", marker='o', capsize=5, ls="none")
+	ax.errorbar(x_val[0], y_val[0], yerr=y_err[0], color="red", marker='o', capsize=5, ls="none")
+	ax.errorbar(x_val[1], y_val[1], yerr=y_err[1], color="blue", marker='o', capsize=5, ls="none")
+	ax.set_xlabel("Number of packets")
+	ax.set_ylabel("Accuracy Error Rate (%)")
+	ax.set_ylim([0,100])
 	fig.savefig("_".join(graph_name.split()) + '_fig.png')
 
 # Uses the student t distribution to compute a 95% confidence interval
