@@ -48,6 +48,7 @@ def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name):
 	ax.set_ylabel("Accuracy Error Rate (%)")
 	ax.set_ylim([0,100])
 	ax.set_xscale("log")
+	plt.title(graph_name)
 	fig.savefig("_".join(graph_name.split()) + '_fig.png')
 
 # Uses the student t distribution to compute a 95% confidence interval
