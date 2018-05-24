@@ -31,19 +31,20 @@ def extract_coverage_error_rates(results_obj):
 	    packet_num_to_coverage[packet_num] = confidence_interval_95(error_rates)
 	return packet_num_to_coverage
 
-def graph(confidence_intervals):
-	x_val = confidence_intervals.keys()
-	intervals = confidence_intervals.values()
-	y_val = []
-	y_err = []
-	for interval in intervals:
-	    y_val.append((interval[0]+interval[1])/2)
-	    y_err.append((interval[1]-interval[0])/2)
+def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals):
+	x_val = [rhh_confidence_intervals.keys(), _10_rhh_confidence_intervals.keys()]
+	intervals = [rhh_confidence_intervals.values(), _10_rhh_confidence_intervals.values()]
+	y_val = [[], []]
+	y_err = [[], []]
+	for i in range(len(intervals)):
+	    for interval in intervals[i]:
+	        y_val[i].append((interval[0]+interval[1])/2)
+	        y_err[i].append((interval[1]-interval[0])/2)
 	fig = plt.figure()
 	ax = fig.add_subplot(111)
-	#y_err = np.matrix(y_err).transpose()
-	bp = ax.errorbar(x_val, y_val, yerr=y_err, marker='o', capsize=10, ls="none")
-	fig.savefig('fig1.png')
+	bp = ax.errorbar(x_val[0], y_val[0], yerr=y_err[0], color="red", marker='o', capsize=10, ls="none")
+	bp = ax.errorbar(x_val[1], y_val[1], yerr=y_err[1], color="blue", marker='o', capsize=10, ls="none")
+	fig.savefig('accuracy_error_fig.png')
 
 # Uses the student t distribution to compute a 95% confidence interval
 # @param data
@@ -59,13 +60,14 @@ def confidence_interval_95(data):
         
 def main():
 	rhhh_results = parse_file("trace_chicago2015_RandHHH2D_output.txt")
-	#10_rhhh_results = parse_file("trace_chicago2015_10RandHHH2D_output.txt")
+	_10_rhhh_results = parse_file("trace_chicago2015_10RandHHH2D_output.txt")
 
 	accuracy_error_rates = extract_accuracy_error_rates(rhhh_results)
 	coverage_error_rates = extract_coverage_error_rates(rhhh_results)
-	print accuracy_error_rates
-	print coverage_error_rates
+	_10_accuracy_error_rates = extract_accuracy_error_rates(_10_rhhh_results)
+	_10_coverage_error_rates = extract_coverage_error_rates(_10_rhhh_results)
 
-	graph(accuracy_error_rates)
+	graph(accuracy_error_rates, _10_accuracy_error_rates)
+
 if __name__ == "__main__":
 	main()
