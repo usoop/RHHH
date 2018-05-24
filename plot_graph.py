@@ -73,6 +73,7 @@ def main():
 	_10_coverage_error_rates = extract_coverage_error_rates(_10_rhhh_results)
 
 	graph(accuracy_error_rates, _10_accuracy_error_rates, "accuracy error rates")
+	graph(coverage_error_rates, _10_coverage_error_rates, "coverage error rates")
 
 if __name__ == "__main__":
 	main()
