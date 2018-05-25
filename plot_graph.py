@@ -31,6 +31,18 @@ def extract_coverage_error_rates(results_obj):
 	    packet_num_to_coverage[packet_num] = confidence_interval_95(error_rates)
 	return packet_num_to_coverage
 
+def extract_false_positive_rates(results_obj):
+	packet_num_to_false_positive = {}
+	for packet_num in results_obj:
+	    false_positive_rates = []
+	    for trial in results_obj[packet_num]:
+		num_reported_hhh = trial["num_reported_hhh"]
+		num_exact_hhh = trial["num_exact_hhh"]
+		false_positive_rates.append(100*(float(num_reported_hhh) - float(num_exact_hhh))/float(num_reported_hhh))
+	    packet_num_to_false_positive[packet_num] = confidence_interval_95(false_positive_rates)
+	return packet_num_to_false_positive
+
+
 def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name, x_label, y_label):
 	x_val = [rhh_confidence_intervals.keys(), _10_rhh_confidence_intervals.keys()]
 	intervals = [rhh_confidence_intervals.values(), _10_rhh_confidence_intervals.values()]
@@ -69,11 +81,14 @@ def main():
 
 	accuracy_error_rates = extract_accuracy_error_rates(rhhh_results)
 	coverage_error_rates = extract_coverage_error_rates(rhhh_results)
+	false_positive_rates = extract_false_positive_rates(rhhh_results)
 	_10_accuracy_error_rates = extract_accuracy_error_rates(_10_rhhh_results)
 	_10_coverage_error_rates = extract_coverage_error_rates(_10_rhhh_results)
+	_10_false_positive_rates = extract_false_positive_rates(_10_rhhh_results)
 
 	graph(accuracy_error_rates, _10_accuracy_error_rates, graph_name="accuracy error rates", x_label="Number of Packets", y_label="Accuracy Error Rate (%)")
 	graph(coverage_error_rates, _10_coverage_error_rates, graph_name="coverage error rates", x_label="Number of Packets", y_label="Coverage Error Rate (%)")
+	graph(false_positive_rates, _10_false_positive_rates, graph_name="false positive rates", x_label="Number of Packets", y_label="False Positives (%)")
 
 if __name__ == "__main__":
 	main()
