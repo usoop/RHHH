@@ -19,10 +19,6 @@
 #define VMULT 1
 #endif
 
-#if VMULT>1
-#define PROB
-#endif
-
 #ifndef L
 #define L NUM_MASKS
 #endif
@@ -56,8 +52,11 @@ void deinit() {
 }
 
 void update(LCLitem_t item, int count) {
-    unsigned int d  = (rand() % L);
-    LCU_Update(HH[d], (item & masks[d]));
+    unsigned int V = L * VMULT;
+    unsigned int d  = (rand() % V);
+    if (d < L) {
+	LCU_Update(HH[d], (item & masks[d]));
+    }
 }
 
 HeavyHitter * output(int threshold, int * numhitters, int streamLen) {
@@ -65,7 +64,7 @@ HeavyHitter * output(int threshold, int * numhitters, int streamLen) {
     linked_list_t *heavy_hitters_list = ll_create();
     int num_hh = 0;
     int hash_table_size = 1;
-    float adj_threshold = threshold/((float) L);
+    float adj_threshold = threshold/((float) L*VMULT);
     LL **hh_hash_set = HT_Init(hash_table_size);
     for (int level = 0; level < L; level++) {
 	for (int i = 0; i < HH[level]->k; i++) {
@@ -73,7 +72,7 @@ HeavyHitter * output(int threshold, int * numhitters, int streamLen) {
 	    uint32_t prefix = (item & masks[level]);
 	    int upper_estimate = LCU_PointEstUpp(HH[level], item);
 	    int conditional_freq = upper_estimate + calcPred(prefix, level, hh_hash_set);
-	    conditional_freq += 2*4*sqrt(2*upper_estimate);
+	    conditional_freq += 2*4*sqrt(2*upper_estimate/((float) VMULT));
 	    if (conditional_freq >= adj_threshold) {
 		num_hh++;
 		HeavyHitter *hh = malloc(sizeof(HeavyHitter));	

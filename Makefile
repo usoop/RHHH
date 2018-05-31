@@ -14,6 +14,8 @@ RandHHH2D: randhhh2D.c main2.c randhhh2D.h ulossycount.c ulossycount.h prng.h pr
 	$(CC) -DRANDHHH -DVMULT=10 -DDIMENSION2 randhhh2D.c ulossycount.c prng.c main2.c -o 10RandHHH2D -lm
 repro_RandHHH: repro_randhhh.c repro_randhhh.h repro_main.c ulossycount.c ulossycount.h prng.h prng.c linked_list.h linked_list.c hashtable.h hashtable.c Makefile
 	$(CC) -DRHHH repro_randhhh.c ulossycount.c prng.c repro_main.c hashtable.c linked_list.c -o repro_RandHHH -lm
+repro_10RandHHH: repro_randhhh.c repro_randhhh.h repro_main.c ulossycount.c ulossycount.h prng.h prng.c linked_list.h linked_list.c hashtable.h hashtable.c Makefile
+	$(CC) -DRHHH -DVMULT=10 repro_randhhh.c ulossycount.c prng.c repro_main.c hashtable.c linked_list.c -o repro_10RandHHH -lm
 check1: check1.cpp Makefile
 	g++ -ansi -Wall -O2 check1.cpp -o check1 -lm
 check1_33: check1.cpp Makefile
