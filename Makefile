@@ -1,4 +1,4 @@
-CC=gcc -O2 -Wall
+CC=gcc -O2 -Wall -g
 all: RandHHH 10RandHHH RandHHH_33 10RandHHH_33 RandHHH2D 10RandHHH2D check1 check1_33 check2
 RandHHH: randhhh1D.c randhhh1D.h randmain1.c ulossycount.h ulossycount.c hashtable.h hashtable.c prng.h prng.c Makefile
 	$(CC) -DRHHH randhhh1D.c randmain1.c ulossycount.c hashtable.c prng.c -o RandHHH -lm
@@ -12,7 +12,8 @@ RandHHH2D: randhhh2D.c main2.c randhhh2D.h ulossycount.c ulossycount.h prng.h pr
 	$(CC) -DRANDHHH -DDIMENSION2 randhhh2D.c ulossycount.c prng.c main2.c -o RandHHH2D -lm
 10RandHHH2D: randhhh2D.c main2.c randhhh2D.h ulossycount.c ulossycount.h prng.h prng.c Makefile
 	$(CC) -DRANDHHH -DVMULT=10 -DDIMENSION2 randhhh2D.c ulossycount.c prng.c main2.c -o 10RandHHH2D -lm
-	
+repro_RandHHH: repro_randhhh.c repro_randhhh.h repro_main.c ulossycount.c ulossycount.h prng.h prng.c linked_list.h linked_list.c hashtable.h hashtable.c Makefile
+	$(CC) -DRHHH repro_randhhh.c ulossycount.c prng.c repro_main.c hashtable.c linked_list.c -o repro_RandHHH -lm
 check1: check1.cpp Makefile
 	g++ -ansi -Wall -O2 check1.cpp -o check1 -lm
 check1_33: check1.cpp Makefile
