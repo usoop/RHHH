@@ -10,16 +10,17 @@ def parse_file(filename):
 		if not line:
 		    break
 		if line.startswith("Trial"):
-		    current_trial = line.split()[1]
+		    current_trial = int(re.match('Trial\s([0-9]+)', line).group(1))
 		elif " pairs took " in line:
 		    line_tokens = line.split()
 		    result_obj = {}
-		    num_packets = int(line_tokens[0])
+		    num_packets, time, num_reported_hhh = re.match('([0-9]+)\spairs\stook\s([0-9.]+)s\s\([0-9.s\-]+\)\s([0-9]+)\sHHHs', line).group(1, 2, 3)
 		    if num_packets not in results_by_packet_number:
 			results_by_packet_number[num_packets] = []
-		    result_obj["time"] = line_tokens[3]
+
+		    result_obj["time"] = time
 		    result_obj["trial"] = current_trial
-		    result_obj["num_reported_hhh"] = line_tokens[-2]
+		    result_obj["num_reported_hhh"] = num_reported_hhh
 		    line2 = f.readline()	
 		    accErrors, covErrors, exactHHH = re.match('([0-9]+)\saccErrors\s([0-9]+)\scovErrors\s([0-9]+)\sexact\shhhs\n', line2).group(1, 2, 3)
 		    result_obj["accuracy_errors"] = accErrors
