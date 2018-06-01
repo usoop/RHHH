@@ -1,5 +1,5 @@
 CC=gcc -O2 -Wall -g
-all: RandHHH 10RandHHH RandHHH_33 10RandHHH_33 RandHHH2D 10RandHHH2D check1 check1_33 check2
+all: RandHHH 10RandHHH RandHHH_33 10RandHHH_33 RandHHH2D 10RandHHH2D check1 check1_33 check2 repro_RandHHH repro_10RandHHH
 RandHHH: randhhh1D.c randhhh1D.h randmain1.c ulossycount.h ulossycount.c hashtable.h hashtable.c prng.h prng.c Makefile
 	$(CC) -DRHHH randhhh1D.c randmain1.c ulossycount.c hashtable.c prng.c -o RandHHH -lm
 10RandHHH: randhhh1D.c randhhh1D.h randmain1.c ulossycount.h ulossycount.c hashtable.h hashtable.c prng.h prng.c Makefile
