@@ -1,17 +1,17 @@
 # RHHH Reproduction
-Reproduction of results from ""Constant Time Updates in Hierarchical Heavy Hitters" paper, ACM SIGCOMM 2017, by Ran Ben Basat, Gil Einziger, Roy Friedman, Marcelo Caggiani Luizelli, and Erez Waisbard.
+Reproduction of results from the "Constant Time Updates in Hierarchical Heavy Hitters" paper, ACM SIGCOMM 2017, by Ran Ben Basat, Gil Einziger, Roy Friedman, Marcelo Caggiani Luizelli, and Erez Waisbard.
 
 /******************************************************************************************************************************/
 
-This repo is forked from the authors' main repository, which contains open source implementations of their randomized hierarchical heavy hitters algorithm, implemented by Ran Ben Basat (sran[at]cs.technion.ac.il) in 2017.
+This repo is forked from the authors' main repository, which contains open source implementations of their randomized hierarchical heavy-hitters algorithms, implemented by Ran Ben Basat (sran[at]cs.technion.ac.il) in 2017.
 
 Austin Poore and I (Lecheng Fan) added additional code to parse all the output and plot the results. We wanted to recreate Figures 2, 3, 4 and 5 from the original paper.
 
 The code here contains the implementation of the original authors' RHHH and 10-RHHH algorithms, and our parsing and plotting scripts.
-For the algorithms we compared to (MST, Partial Ancestry and Full Ancestry), 
-please refer to Thomas Steinke's implementation (http://people.seas.harvard.edu/~tsteinke/hhh/).
+For the algorithms we compared to (MST, Partial Ancestry and Full Ancestry), please refer to Thomas Steinke's implementation (http://people.seas.harvard.edu/~tsteinke/hhh/).
 
 ##Running the code
+
 1. Run `make all` in the top level directory to compile all the executables.
 2. Navigate to the folder named after the trace that you want to run it on. For example, the `chicago2015/` folder will reproduce results using anonymized packet trace data collected in Chicago in 2015. 
 3. Note that you'll need CAIDA credentials (http://www.caida.org/data/passive/passive_dataset_request.xml) in order to download the packet traces. Once you've received them, type in your shell `export CAIDA_USERNAME=[your username] && export CAIDA_PASSWORD=[your password]`.
