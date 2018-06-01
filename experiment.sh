@@ -3,7 +3,7 @@
 make
 
 traces=("trace_chicago2016")
-# "trace_chicago2016" "trace_sanjose2014")
+# "trace_chicago2015" "trace_sanjose2014")
 algs=('RandHHH2D' '10RandHHH2D')
 num_packets=(1000000 2000000 4000000 8000000 16000000 32000000)
 trials=(1 2 3 4 5)

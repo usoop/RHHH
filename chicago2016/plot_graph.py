@@ -79,8 +79,8 @@ def confidence_interval_95(data):
         return (m-h, m+h)
         
 def main():
-	rhhh_results = parse_file("trace_chicago2015_RandHHH2D_output.txt")
-	_10_rhhh_results = parse_file("trace_chicago2015_10RandHHH2D_output.txt")
+	rhhh_results = parse_file("trace_chicago2016_RandHHH2D_output.txt")
+	_10_rhhh_results = parse_file("trace_chicago2016_10RandHHH2D_output.txt")
 
 	accuracy_error_rates = extract_accuracy_error_rates(rhhh_results)
 	coverage_error_rates = extract_coverage_error_rates(rhhh_results)

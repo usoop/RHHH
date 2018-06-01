@@ -37,8 +37,7 @@ double twototheminus(int k) {
 }
 
 void init(double SSepsilon, double prob) {
-    //srand(time(NULL));
-    srand(3421);
+    srand(time(NULL));
     for (int d = 0; d < L; d++) {
 	HH[d] = LCU_Init(max(twototheminus(leveleps[d]), SSepsilon));
     }
