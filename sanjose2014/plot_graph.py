@@ -54,7 +54,6 @@ def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name, x_
 	        y_err[i].append((interval[1]-interval[0])/2)
 	fig = plt.figure()
 	ax = fig.add_subplot(111)
-	pdb.set_trace()
 	ax.errorbar(x_val[0], y_val[0], yerr=y_err[0], color="red", marker='o', capsize=5, ls="none")
 	ax.errorbar(x_val[1], y_val[1], yerr=y_err[1], color="blue", marker='o', capsize=5, ls="none")
 	ax.set_xlabel(x_label)
