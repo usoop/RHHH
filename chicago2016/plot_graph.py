@@ -62,7 +62,7 @@ def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name, x_
 	#ax.set_xlim([2**19,2**25])
 	#ax.set_xticks([2**x for x in range(19, 26)])
 	#ax.set_xticklabels(["2^%s"%x for x in range(19, 26)])
-	ax.set_xscale("log")
+	ax.set_xscale("log", basex=2)
 	plt.title(graph_name)
 	fig.savefig("_".join(graph_name.split()) + '_fig.png')
 
