@@ -2,6 +2,7 @@ import matplotlib as mpl
 mpl.use('agg')
 
 import numpy as np
+import matplotlib.patches as mpatches
 import matplotlib.pyplot as plt
 import pdb
 from parse_results import parse_file
@@ -63,6 +64,9 @@ def graph(rhh_confidence_intervals, _10_rhh_confidence_intervals, graph_name, x_
 	ax.set_xticks([2**x for x in range(19, 26)])
 	ax.set_xticklabels(["2^%s"%x for x in range(19, 26)])
 	ax.set_xscale("log", basex=2)
+        red_patch = mpatches.Patch(color='red', label='RHHH')
+        blue_patch = mpatches.Patch(color='blue', label='10-RHHH')
+        plt.legend(handles=[red_patch, blue_patch])
 	plt.title(graph_name)
 	fig.savefig("_".join(graph_name.split()) + '_fig.png')
 
