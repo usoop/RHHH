@@ -18,6 +18,17 @@
 #
 #There is a makefile that compiles all our programs.
 make all
+FILEURL=https://data.caida.org/datasets/passive-2016/equinix-chicago/20160121-130000.UTC/equinix-chicago.dirA.20160121-130000.UTC.anon.pcap.gz
+#ATTENTION: THIS SCRIPT WILL FAIL WITHOUT A USERNAME AND PASSWORD. PLEASE VISIT www.caida.org.
+
+USERPASS=${CAIDA_USERNAME}:${CAIDA_PASSWORD} #Enter your credentials!
+
+curl -u $USERPASS $FILEURL > data.pcap.gz
+
+#data needs to be made human-readable (takes time)
+gunzip -f data.pcap.gz
+tcpdump -q -n -t -r data.pcap | grep IP | sed 's/\./ /g' | awk '{print $2" "$3" "$4" "$5"\t"$8" "$9" "$10" "$11}' | grep -v "[a-z:]" > trace_chicago2016 2> /dev/null
+rm data.pcap #save space
 #alltests does a whole bunch of predetermined values
 time ./alltests trace_chicago2016
 echo "Results:"
