@@ -26,13 +26,13 @@ If you want to start from scratch:
 2. `bash runme`
 3. `vepstime.png` is the resulting plot
 
-If you want to run it with data collected from the Chicago2016 trace:
+If you want to run it with data already collected from the Chicago2016 trace:
 1. Run `python make_plot.py`
 
 ## Using our implementation of RHHH and 10RHHH
 We implemented our own versions of RHHH and 10RHHH (for 1D bytes) using the pseudocode in their paper. Follow these steps to make plots using our own implementations.
-1. Navigate to the trace folder, eg `chicago2016`
-2. `make all`
+1. `make all` in the top level directory
+2. Navigate to the trace folder, eg `chicago2016`
 3. Run `error_experiment_repro.sh` to run it with our binaries (repro_RandHHH and repro_10RandHHH)
 4. Open `plot_graph.py` in an editor and change the filename for rhhh_results to `trace_chicago2015_repro_RandHHH_output.txt` and 10_rhhh_results to `trace_chicago2015_repro_10RandHHH_output.txt`
 5. `python plot_graph.py`
