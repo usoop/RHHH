@@ -11,10 +11,10 @@ def parse_file(filename):
 		    break
 		if line.startswith("Trial"):
 		    current_trial = int(re.match('Trial\s([0-9]+)', line).group(1))
-		elif " pairs took " in line:
+		elif " took " in line:
 		    line_tokens = line.split()
 		    result_obj = {}
-		    num_packets, time, num_reported_hhh = re.match('([0-9]+)\spairs\stook\s([0-9.]+)s\s\([0-9.s\-]+\)\s([0-9]+)\sHHHs', line).group(1, 2, 3)
+		    num_packets, time, num_reported_hhh = re.match('([0-9]+)\s[a-z]+s\stook\s([0-9.]+)s\s\([0-9.s\-]+\)\s([0-9]+)\sHHHs', line).group(1, 2, 3)
 		    num_packets = int(num_packets)
 		    if num_packets not in results_by_packet_number:
 			results_by_packet_number[num_packets] = []
@@ -31,7 +31,7 @@ def parse_file(filename):
 	return results_by_packet_number
 
 def main():
-	filename = "trace_chicago2015_RandHHH2D_output.txt"
+	filename = "trace_chicago2015_repro_RandHHH_output.txt"
 	result = parse_file(filename)
 	print result
 
