@@ -1,0 +1,393 @@
+check=false algorithm=./hhh2         nitems=3000000    counters=2     threshold=3000000   memory=10072   outputsize=1   time=2.799509 walltime=2.800000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=2     threshold=3000000   memory=10072   outputsize=1   exactsize=1   time=2.799509 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=2     threshold=3000000   memory=4640    outputsize=1   time=20.534438 walltime=20.540000 epsilon=0.000000
+check=true  algorithm=./ancestry2    nitems=3000000    counters=2     threshold=3000000   memory=4640    outputsize=1   exactsize=1   time=20.534437 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./full2        nitems=3000000    counters=2     threshold=3000000   memory=4480    outputsize=1   time=11.597102 walltime=11.599000 epsilon=0.000000
+check=true  algorithm=./full2        nitems=3000000    counters=2     threshold=3000000   memory=4480    outputsize=1   exactsize=1   time=11.597102 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./hhh2         nitems=3000000    counters=4     threshold=1500000   memory=13144   outputsize=1   time=3.204179 walltime=3.204000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=4     threshold=1500000   memory=13144   outputsize=1   exactsize=1   time=3.204179 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=4     threshold=1500000   memory=8440    outputsize=1   time=20.995073 walltime=20.997000 epsilon=0.000000
+check=true  algorithm=./ancestry2    nitems=3000000    counters=4     threshold=1500000   memory=8440    outputsize=1   exactsize=1   time=20.995073 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./full2        nitems=3000000    counters=4     threshold=1500000   memory=8640    outputsize=1   time=11.642558 walltime=11.643000 epsilon=0.000000
+check=true  algorithm=./full2        nitems=3000000    counters=4     threshold=1500000   memory=8640    outputsize=1   exactsize=1   time=11.642558 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./hhh2         nitems=3000000    counters=8     threshold=750000    memory=19288   outputsize=2   time=3.681516 walltime=3.683000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=8     threshold=750000    memory=19288   outputsize=2   exactsize=2   time=3.681516 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=8     threshold=750000    memory=14480   outputsize=2   time=19.444381 walltime=19.446000 epsilon=0.000202
+check=true  algorithm=./ancestry2    nitems=3000000    counters=8     threshold=750000    memory=14480   outputsize=2   exactsize=2   time=19.444382 accuracy=0.000584 epsilon=0.000202
+check=false algorithm=./full2        nitems=3000000    counters=8     threshold=750000    memory=15200   outputsize=2   time=11.098331 walltime=11.101000 epsilon=0.000000
+check=true  algorithm=./full2        nitems=3000000    counters=8     threshold=750000    memory=15200   outputsize=2   exactsize=2   time=11.098331 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./hhh2         nitems=3000000    counters=16    threshold=375000    memory=31576   outputsize=4   time=4.159662 walltime=4.160000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=16    threshold=375000    memory=31576   outputsize=4   exactsize=4   time=4.159662 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=16    threshold=375000    memory=23960   outputsize=4   time=17.519090 walltime=17.522000 epsilon=0.062323
+check=true  algorithm=./ancestry2    nitems=3000000    counters=16    threshold=375000    memory=23960   outputsize=4   exactsize=4   time=17.519091 accuracy=0.346395 epsilon=0.062323
+check=false algorithm=./full2        nitems=3000000    counters=16    threshold=375000    memory=27600   outputsize=4   time=10.660551 walltime=10.663000 epsilon=0.000000
+check=true  algorithm=./full2        nitems=3000000    counters=16    threshold=375000    memory=27600   outputsize=4   exactsize=4   time=10.660551 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./hhh2         nitems=3000000    counters=32    threshold=187500    memory=56152   outputsize=7   time=4.928178 walltime=4.929000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=32    threshold=187500    memory=56152   outputsize=7   exactsize=7   time=4.928178 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=32    threshold=187500    memory=45960   outputsize=7   time=16.034325 walltime=16.038000 epsilon=0.019897
+check=true  algorithm=./ancestry2    nitems=3000000    counters=32    threshold=187500    memory=45960   outputsize=7   exactsize=7   time=16.034325 accuracy=0.087431 epsilon=0.019897
+check=false algorithm=./full2        nitems=3000000    counters=32    threshold=187500    memory=45800   outputsize=7   time=9.891778 walltime=9.893000 epsilon=0.000001
+check=true  algorithm=./full2        nitems=3000000    counters=32    threshold=187500    memory=45800   outputsize=7   exactsize=7   time=9.891778 accuracy=0.000016 epsilon=0.000001
+check=false algorithm=./hhh2         nitems=3000000    counters=64    threshold=93750     memory=105304  outputsize=17  time=5.091758 walltime=5.092000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=64    threshold=93750     memory=105304  outputsize=17  exactsize=17  time=5.091758 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=64    threshold=93750     memory=84000   outputsize=20  time=14.759897 walltime=14.763000 epsilon=0.015624
+check=true  algorithm=./ancestry2    nitems=3000000    counters=64    threshold=93750     memory=84000   outputsize=20  exactsize=17  time=14.759897 accuracy=0.559130 epsilon=0.015624
+check=false algorithm=./full2        nitems=3000000    counters=64    threshold=93750     memory=80560   outputsize=17  time=9.128229 walltime=9.131000 epsilon=0.000006
+check=true  algorithm=./full2        nitems=3000000    counters=64    threshold=93750     memory=80560   outputsize=17  exactsize=17  time=9.128229 accuracy=0.000147 epsilon=0.000006
+check=false algorithm=./hhh2         nitems=3000000    counters=128   threshold=46875     memory=203608  outputsize=43  time=5.346134 walltime=5.347000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=128   threshold=46875     memory=203608  outputsize=43  exactsize=43  time=5.346134 accuracy=0.000049 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=128   threshold=46875     memory=157880  outputsize=49  time=13.460371 walltime=13.463000 epsilon=0.007811
+check=true  algorithm=./ancestry2    nitems=3000000    counters=128   threshold=46875     memory=157880  outputsize=49  exactsize=43  time=13.460371 accuracy=0.557004 epsilon=0.007811
+check=false algorithm=./full2        nitems=3000000    counters=128   threshold=46875     memory=160040  outputsize=43  time=8.556357 walltime=8.557000 epsilon=0.000007
+check=true  algorithm=./full2        nitems=3000000    counters=128   threshold=46875     memory=160040  outputsize=43  exactsize=43  time=8.556357 accuracy=0.000342 epsilon=0.000007
+check=false algorithm=./hhh2         nitems=3000000    counters=256   threshold=23437     memory=400216  outputsize=94  time=5.633962 walltime=5.636000 epsilon=0.000008
+check=true  algorithm=./hhh2         nitems=3000000    counters=256   threshold=23437     memory=400216  outputsize=94  exactsize=94  time=5.633962 accuracy=0.001025 epsilon=0.000008
+check=false algorithm=./ancestry2    nitems=3000000    counters=256   threshold=23437     memory=292800  outputsize=115 time=11.930428 walltime=11.931000 epsilon=0.003905
+check=true  algorithm=./ancestry2    nitems=3000000    counters=256   threshold=23437     memory=292800  outputsize=115 exactsize=94  time=11.930428 accuracy=0.700335 epsilon=0.003905
+check=false algorithm=./full2        nitems=3000000    counters=256   threshold=23437     memory=270240  outputsize=94  time=7.996417 walltime=7.998000 epsilon=0.000059
+check=true  algorithm=./full2        nitems=3000000    counters=256   threshold=23437     memory=270240  outputsize=94  exactsize=94  time=7.996417 accuracy=0.006308 epsilon=0.000059
+check=false algorithm=./hhh2         nitems=3000000    counters=512   threshold=11718     memory=760664  outputsize=223 time=5.686442 walltime=5.687000 epsilon=0.000342
+check=true  algorithm=./hhh2         nitems=3000000    counters=512   threshold=11718     memory=760664  outputsize=223 exactsize=222 time=5.686442 accuracy=0.069515 epsilon=0.000342
+check=false algorithm=./ancestry2    nitems=3000000    counters=512   threshold=11718     memory=552600  outputsize=292 time=10.413764 walltime=10.416000 epsilon=0.001952
+check=true  algorithm=./ancestry2    nitems=3000000    counters=512   threshold=11718     memory=552600  outputsize=292 exactsize=222 time=10.413764 accuracy=0.727778 epsilon=0.001952
+check=false algorithm=./full2        nitems=3000000    counters=512   threshold=11718     memory=528040  outputsize=225 time=7.533800 walltime=7.536000 epsilon=0.000490
+check=true  algorithm=./full2        nitems=3000000    counters=512   threshold=11718     memory=528040  outputsize=225 exactsize=222 time=7.533800 accuracy=0.099763 epsilon=0.000490
+check=false algorithm=./hhh2         nitems=3000000    counters=1024  threshold=5859      memory=1481560 outputsize=483 time=5.800185 walltime=5.802000 epsilon=0.000285
+check=true  algorithm=./hhh2         nitems=3000000    counters=1024  threshold=5859      memory=1481560 outputsize=483 exactsize=474 time=5.800185 accuracy=0.149869 epsilon=0.000285
+check=false algorithm=./ancestry2    nitems=3000000    counters=1024  threshold=5859      memory=1006760 outputsize=605 time=8.707261 walltime=8.710000 epsilon=0.000975
+check=true  algorithm=./ancestry2    nitems=3000000    counters=1024  threshold=5859      memory=1006760 outputsize=605 exactsize=474 time=8.707261 accuracy=0.779340 epsilon=0.000975
+check=false algorithm=./full2        nitems=3000000    counters=1024  threshold=5859      memory=932680  outputsize=483 time=6.847766 walltime=6.848000 epsilon=0.000341
+check=true  algorithm=./full2        nitems=3000000    counters=1024  threshold=5859      memory=932680  outputsize=483 exactsize=474 time=6.847766 accuracy=0.179492 epsilon=0.000341
+check=false algorithm=./hhh2         nitems=3000000    counters=10    threshold=600000    memory=22360   outputsize=3   time=3.837652 walltime=3.838000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=10    threshold=600000    memory=22360   outputsize=3   exactsize=3   time=3.837652 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=10    threshold=600000    memory=16560   outputsize=3   time=18.475888 walltime=18.482000 epsilon=0.099965
+check=true  algorithm=./ancestry2    nitems=3000000    counters=10    threshold=600000    memory=16560   outputsize=3   exactsize=3   time=18.475887 accuracy=0.555611 epsilon=0.099965
+check=false algorithm=./full2        nitems=3000000    counters=10    threshold=600000    memory=18040   outputsize=3   time=10.959527 walltime=10.961000 epsilon=0.000000
+check=true  algorithm=./full2        nitems=3000000    counters=10    threshold=600000    memory=18040   outputsize=3   exactsize=3   time=10.959527 accuracy=0.000001 epsilon=0.000000
+check=false algorithm=./hhh2         nitems=3000000    counters=20    threshold=300000    memory=37720   outputsize=4   time=4.296496 walltime=4.298000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=20    threshold=300000    memory=37720   outputsize=4   exactsize=4   time=4.296496 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=20    threshold=300000    memory=29160   outputsize=4   time=17.035042 walltime=17.040000 epsilon=0.047829
+check=true  algorithm=./ancestry2    nitems=3000000    counters=20    threshold=300000    memory=29160   outputsize=4   exactsize=4   time=17.035042 accuracy=0.265837 epsilon=0.047829
+check=false algorithm=./full2        nitems=3000000    counters=20    threshold=300000    memory=30880   outputsize=4   time=10.253906 walltime=10.256000 epsilon=0.000000
+check=true  algorithm=./full2        nitems=3000000    counters=20    threshold=300000    memory=30880   outputsize=4   exactsize=4   time=10.253906 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./hhh2         nitems=3000000    counters=40    threshold=150000    memory=68440   outputsize=8   time=4.882979 walltime=4.884000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=40    threshold=150000    memory=68440   outputsize=8   exactsize=8   time=4.882979 accuracy=0.000013 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=40    threshold=150000    memory=54280   outputsize=10  time=15.887946 walltime=15.889000 epsilon=0.024999
+check=true  algorithm=./ancestry2    nitems=3000000    counters=40    threshold=150000    memory=54280   outputsize=10  exactsize=8   time=15.887946 accuracy=0.697364 epsilon=0.024999
+check=false algorithm=./full2        nitems=3000000    counters=40    threshold=150000    memory=53760   outputsize=8   time=9.787514 walltime=9.789000 epsilon=0.000001
+check=true  algorithm=./full2        nitems=3000000    counters=40    threshold=150000    memory=53760   outputsize=8   exactsize=8   time=9.787514 accuracy=0.000013 epsilon=0.000001
+check=false algorithm=./hhh2         nitems=3000000    counters=80    threshold=75000     memory=129880  outputsize=20  time=5.286170 walltime=5.287000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=80    threshold=75000     memory=129880  outputsize=20  exactsize=20  time=5.286170 accuracy=0.000026 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=80    threshold=75000     memory=101120  outputsize=27  time=14.403912 walltime=14.406000 epsilon=0.012499
+check=true  algorithm=./ancestry2    nitems=3000000    counters=80    threshold=75000     memory=101120  outputsize=27  exactsize=20  time=14.403912 accuracy=0.697038 epsilon=0.012499
+check=false algorithm=./full2        nitems=3000000    counters=80    threshold=75000     memory=104200  outputsize=20  time=8.937635 walltime=8.940000 epsilon=0.000001
+check=true  algorithm=./full2        nitems=3000000    counters=80    threshold=75000     memory=104200  outputsize=20  exactsize=20  time=8.937635 accuracy=0.000038 epsilon=0.000001
+check=false algorithm=./hhh2         nitems=3000000    counters=160   threshold=37500     memory=252760  outputsize=50  time=5.456748 walltime=5.457000 epsilon=0.000060
+check=true  algorithm=./hhh2         nitems=3000000    counters=160   threshold=37500     memory=252760  outputsize=50  exactsize=50  time=5.456748 accuracy=0.004070 epsilon=0.000060
+check=false algorithm=./ancestry2    nitems=3000000    counters=160   threshold=37500     memory=191520  outputsize=57  time=12.869247 walltime=12.872000 epsilon=0.006249
+check=true  algorithm=./ancestry2    nitems=3000000    counters=160   threshold=37500     memory=191520  outputsize=57  exactsize=50  time=12.869247 accuracy=0.661912 epsilon=0.006249
+check=false algorithm=./full2        nitems=3000000    counters=160   threshold=37500     memory=184840  outputsize=50  time=8.314569 walltime=8.317000 epsilon=0.000074
+check=true  algorithm=./full2        nitems=3000000    counters=160   threshold=37500     memory=184840  outputsize=50  exactsize=50  time=8.314569 accuracy=0.004992 epsilon=0.000074
+check=false algorithm=./hhh2         nitems=3000000    counters=320   threshold=18750     memory=490328  outputsize=128 time=5.721243 walltime=5.723000 epsilon=0.000164
+check=true  algorithm=./hhh2         nitems=3000000    counters=320   threshold=18750     memory=490328  outputsize=128 exactsize=127 time=5.721243 accuracy=0.025958 epsilon=0.000164
+check=false algorithm=./ancestry2    nitems=3000000    counters=320   threshold=18750     memory=358640  outputsize=152 time=11.700412 walltime=11.701000 epsilon=0.003124
+check=true  algorithm=./ancestry2    nitems=3000000    counters=320   threshold=18750     memory=358640  outputsize=152 exactsize=127 time=11.700412 accuracy=0.643372 epsilon=0.003124
+check=false algorithm=./full2        nitems=3000000    counters=320   threshold=18750     memory=342440  outputsize=128 time=7.637290 walltime=7.638000 epsilon=0.000214
+check=true  algorithm=./full2        nitems=3000000    counters=320   threshold=18750     memory=342440  outputsize=128 exactsize=127 time=7.637290 accuracy=0.033871 epsilon=0.000214
+check=false algorithm=./hhh2         nitems=3000000    counters=640   threshold=9375      memory=940888  outputsize=284 time=5.788531 walltime=5.789000 epsilon=0.000268
+check=true  algorithm=./hhh2         nitems=3000000    counters=640   threshold=9375      memory=940888  outputsize=284 exactsize=283 time=5.788531 accuracy=0.075347 epsilon=0.000268
+check=false algorithm=./ancestry2    nitems=3000000    counters=640   threshold=9375      memory=674080  outputsize=352 time=9.511519 walltime=9.514000 epsilon=0.001561
+check=true  algorithm=./ancestry2    nitems=3000000    counters=640   threshold=9375      memory=674080  outputsize=352 exactsize=283 time=9.511519 accuracy=0.753180 epsilon=0.001561
+check=false algorithm=./full2        nitems=3000000    counters=640   threshold=9375      memory=630520  outputsize=285 time=7.183203 walltime=7.184000 epsilon=0.000361
+check=true  algorithm=./full2        nitems=3000000    counters=640   threshold=9375      memory=630520  outputsize=285 exactsize=283 time=7.183203 accuracy=0.095441 epsilon=0.000361
+check=false algorithm=./hhh2         nitems=3000000    counters=1280  threshold=4687      memory=1842008 outputsize=591 time=5.961405 walltime=5.963000 epsilon=0.000462
+check=true  algorithm=./hhh2         nitems=3000000    counters=1280  threshold=4687      memory=1842008 outputsize=591 exactsize=581 time=5.961405 accuracy=0.384359 epsilon=0.000462
+check=false algorithm=./ancestry2    nitems=3000000    counters=1280  threshold=4687      memory=1217480 outputsize=744 time=8.150252 walltime=8.152000 epsilon=0.000780
+check=true  algorithm=./ancestry2    nitems=3000000    counters=1280  threshold=4687      memory=1217480 outputsize=744 exactsize=581 time=8.150252 accuracy=0.772742 epsilon=0.000780
+check=false algorithm=./full2        nitems=3000000    counters=1280  threshold=4687      memory=1126800 outputsize=597 time=7.105788 walltime=7.106000 epsilon=0.000660
+check=true  algorithm=./full2        nitems=3000000    counters=1280  threshold=4687      memory=1126800 outputsize=597 exactsize=581 time=7.105788 accuracy=0.631059 epsilon=0.000660
+check=false algorithm=./hhh2         nitems=3000000    counters=2560  threshold=2343      memory=3644248 outputsize=1123 time=5.704283 walltime=5.705000 epsilon=0.000296
+check=true  algorithm=./hhh2         nitems=3000000    counters=2560  threshold=2343      memory=3644248 outputsize=1123 exactsize=1109 time=5.704283 accuracy=0.595302 epsilon=0.000296
+check=false algorithm=./ancestry2    nitems=3000000    counters=2560  threshold=2343      memory=2176200 outputsize=1482 time=7.085333 walltime=7.087000 epsilon=0.000389
+check=true  algorithm=./ancestry2    nitems=3000000    counters=2560  threshold=2343      memory=2176200 outputsize=1482 exactsize=1109 time=7.085333 accuracy=0.777104 epsilon=0.000389
+check=false algorithm=./full2        nitems=3000000    counters=2560  threshold=2343      memory=1958160 outputsize=1142 time=6.155453 walltime=6.157000 epsilon=0.000356
+check=true  algorithm=./full2        nitems=3000000    counters=2560  threshold=2343      memory=1958160 outputsize=1142 exactsize=1109 time=6.155453 accuracy=0.806792 epsilon=0.000356
+check=false algorithm=./hhh2         nitems=3000000    counters=5120  threshold=1171      memory=7248728 outputsize=2130 time=6.173375 walltime=6.174000 epsilon=0.000133
+check=true  algorithm=./hhh2         nitems=3000000    counters=5120  threshold=1171      memory=7248728 outputsize=2130 exactsize=2095 time=6.173375 accuracy=0.453901 epsilon=0.000133
+check=false algorithm=./ancestry2    nitems=3000000    counters=5120  threshold=1171      memory=3869520 outputsize=2850 time=6.311820 walltime=6.313000 epsilon=0.000194
+check=true  algorithm=./ancestry2    nitems=3000000    counters=5120  threshold=1171      memory=3869520 outputsize=2850 exactsize=2095 time=6.311820 accuracy=0.843658 epsilon=0.000194
+check=false algorithm=./full2        nitems=3000000    counters=5120  threshold=1171      memory=3438160 outputsize=2153 time=5.753266 walltime=5.755000 epsilon=0.000178
+check=true  algorithm=./full2        nitems=3000000    counters=5120  threshold=1171      memory=3438160 outputsize=2153 exactsize=2095 time=5.753266 accuracy=0.632944 epsilon=0.000178
+check=false algorithm=./hhh2         nitems=3000000    counters=10240 threshold=585       memory=14457688 outputsize=3964 time=8.064078 walltime=8.065000 epsilon=0.000056
+check=true  algorithm=./hhh2         nitems=3000000    counters=10240 threshold=585       memory=14457688 outputsize=3964 exactsize=3928 time=8.064078 accuracy=0.307860 epsilon=0.000056
+check=false algorithm=./ancestry2    nitems=3000000    counters=10240 threshold=585       memory=7036720 outputsize=5394 time=6.862398 walltime=6.864000 epsilon=0.000097
+check=true  algorithm=./ancestry2    nitems=3000000    counters=10240 threshold=585       memory=7036720 outputsize=5394 exactsize=3928 time=6.862398 accuracy=0.778082 epsilon=0.000097
+check=false algorithm=./full2        nitems=3000000    counters=10240 threshold=585       memory=5907080 outputsize=4062 time=6.020688 walltime=6.021000 epsilon=0.000094
+check=true  algorithm=./full2        nitems=3000000    counters=10240 threshold=585       memory=5907080 outputsize=4062 exactsize=3928 time=6.020688 accuracy=0.924590 epsilon=0.000094
+check=false algorithm=./hhh2         nitems=3000000    counters=100   threshold=60000     memory=160600  outputsize=26  time=5.243162 walltime=5.244000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=100   threshold=60000     memory=160600  outputsize=26  exactsize=26  time=5.243162 accuracy=0.000065 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=100   threshold=60000     memory=124240  outputsize=38  time=14.035810 walltime=14.038000 epsilon=0.009999
+check=true  algorithm=./ancestry2    nitems=3000000    counters=100   threshold=60000     memory=124240  outputsize=38  exactsize=26  time=14.035810 accuracy=0.628033 epsilon=0.009999
+check=false algorithm=./full2        nitems=3000000    counters=100   threshold=60000     memory=127080  outputsize=26  time=8.508672 walltime=8.510000 epsilon=0.000010
+check=true  algorithm=./full2        nitems=3000000    counters=100   threshold=60000     memory=127080  outputsize=26  exactsize=26  time=8.508672 accuracy=0.000451 epsilon=0.000010
+check=false algorithm=./hhh2         nitems=3000000    counters=200   threshold=30000     memory=314200  outputsize=64  time=5.577546 walltime=5.579000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=200   threshold=30000     memory=314200  outputsize=64  exactsize=63  time=5.577546 accuracy=0.000045 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=200   threshold=30000     memory=231720  outputsize=87  time=12.255031 walltime=12.257000 epsilon=0.004999
+check=true  algorithm=./ancestry2    nitems=3000000    counters=200   threshold=30000     memory=231720  outputsize=87  exactsize=63  time=12.255031 accuracy=0.660675 epsilon=0.004999
+check=false algorithm=./full2        nitems=3000000    counters=200   threshold=30000     memory=226200  outputsize=63  time=8.233007 walltime=8.234000 epsilon=0.000058
+check=true  algorithm=./full2        nitems=3000000    counters=200   threshold=30000     memory=226200  outputsize=63  exactsize=63  time=8.233007 accuracy=0.003935 epsilon=0.000058
+check=false algorithm=./hhh2         nitems=3000000    counters=400   threshold=15000     memory=602968  outputsize=164 time=5.711626 walltime=5.713000 epsilon=0.000446
+check=true  algorithm=./hhh2         nitems=3000000    counters=400   threshold=15000     memory=602968  outputsize=164 exactsize=163 time=5.711626 accuracy=0.090743 epsilon=0.000446
+check=false algorithm=./ancestry2    nitems=3000000    counters=400   threshold=15000     memory=441480  outputsize=206 time=10.703160 walltime=10.706000 epsilon=0.002499
+check=true  algorithm=./ancestry2    nitems=3000000    counters=400   threshold=15000     memory=441480  outputsize=206 exactsize=163 time=10.703160 accuracy=0.695281 epsilon=0.002499
+check=false algorithm=./full2        nitems=3000000    counters=400   threshold=15000     memory=416000  outputsize=167 time=7.410536 walltime=7.412000 epsilon=0.000644
+check=true  algorithm=./full2        nitems=3000000    counters=400   threshold=15000     memory=416000  outputsize=167 exactsize=163 time=7.410536 accuracy=0.130924 epsilon=0.000644
+check=false algorithm=./hhh2         nitems=3000000    counters=800   threshold=7500      memory=1166168 outputsize=373 time=5.762392 walltime=5.764000 epsilon=0.000209
+check=true  algorithm=./hhh2         nitems=3000000    counters=800   threshold=7500      memory=1166168 outputsize=373 exactsize=367 time=5.762392 accuracy=0.063547 epsilon=0.000209
+check=false algorithm=./ancestry2    nitems=3000000    counters=800   threshold=7500      memory=813240  outputsize=455 time=9.053589 walltime=9.055000 epsilon=0.001249
+check=true  algorithm=./ancestry2    nitems=3000000    counters=800   threshold=7500      memory=813240  outputsize=455 exactsize=367 time=9.053589 accuracy=0.828654 epsilon=0.001249
+check=false algorithm=./full2        nitems=3000000    counters=800   threshold=7500      memory=745840  outputsize=372 time=6.787656 walltime=6.789000 epsilon=0.000270
+check=true  algorithm=./full2        nitems=3000000    counters=800   threshold=7500      memory=745840  outputsize=372 exactsize=367 time=6.787656 accuracy=0.076310 epsilon=0.000270
+check=false algorithm=./hhh2         nitems=3000000    counters=1600  threshold=3750      memory=2292568 outputsize=722 time=5.936602 walltime=5.938000 epsilon=0.000471
+check=true  algorithm=./hhh2         nitems=3000000    counters=1600  threshold=3750      memory=2292568 outputsize=722 exactsize=706 time=5.936602 accuracy=0.522752 epsilon=0.000471
+check=false algorithm=./ancestry2    nitems=3000000    counters=1600  threshold=3750      memory=1465920 outputsize=922 time=7.740871 walltime=7.742000 epsilon=0.000624
+check=true  algorithm=./ancestry2    nitems=3000000    counters=1600  threshold=3750      memory=1465920 outputsize=922 exactsize=706 time=7.740871 accuracy=0.813922 epsilon=0.000624
+check=false algorithm=./full2        nitems=3000000    counters=1600  threshold=3750      memory=1342240 outputsize=724 time=6.380105 walltime=6.381000 epsilon=0.000511
+check=true  algorithm=./full2        nitems=3000000    counters=1600  threshold=3750      memory=1342240 outputsize=724 exactsize=706 time=6.380105 accuracy=0.566778 epsilon=0.000511
+check=false algorithm=./hhh2         nitems=3000000    counters=3200  threshold=1875      memory=4545368 outputsize=1398 time=6.333250 walltime=6.334000 epsilon=0.000234
+check=true  algorithm=./hhh2         nitems=3000000    counters=3200  threshold=1875      memory=4545368 outputsize=1398 exactsize=1382 time=6.333250 accuracy=0.579208 epsilon=0.000234
+check=false algorithm=./ancestry2    nitems=3000000    counters=3200  threshold=1875      memory=2611800 outputsize=1832 time=6.582797 walltime=6.584000 epsilon=0.000311
+check=true  algorithm=./ancestry2    nitems=3000000    counters=3200  threshold=1875      memory=2611800 outputsize=1832 exactsize=1382 time=6.582797 accuracy=0.728694 epsilon=0.000311
+check=false algorithm=./full2        nitems=3000000    counters=3200  threshold=1875      memory=2338880 outputsize=1409 time=6.232780 walltime=6.234000 epsilon=0.000292
+check=true  algorithm=./full2        nitems=3000000    counters=3200  threshold=1875      memory=2338880 outputsize=1409 exactsize=1382 time=6.232780 accuracy=0.764860 epsilon=0.000292
+check=false algorithm=./hhh2         nitems=3000000    counters=6400  threshold=937       memory=9050968 outputsize=2606 time=6.375791 walltime=6.376000 epsilon=0.000103
+check=true  algorithm=./hhh2         nitems=3000000    counters=6400  threshold=937       memory=9050968 outputsize=2606 exactsize=2573 time=6.375791 accuracy=0.482059 epsilon=0.000103
+check=false algorithm=./ancestry2    nitems=3000000    counters=6400  threshold=937       memory=4696120 outputsize=3578 time=6.372621 walltime=6.374000 epsilon=0.000155
+check=true  algorithm=./ancestry2    nitems=3000000    counters=6400  threshold=937       memory=4696120 outputsize=3578 exactsize=2573 time=6.372621 accuracy=0.772803 epsilon=0.000155
+check=false algorithm=./full2        nitems=3000000    counters=6400  threshold=937       memory=4126680 outputsize=2666 time=6.731204 walltime=6.732000 epsilon=0.000145
+check=true  algorithm=./full2        nitems=3000000    counters=6400  threshold=937       memory=4126680 outputsize=2666 exactsize=2573 time=6.731204 accuracy=0.706406 epsilon=0.000145
+check=false algorithm=./hhh2         nitems=3000000    counters=12800 threshold=468       memory=18062168 outputsize=4808 time=7.989209 walltime=7.991000 epsilon=0.000043
+check=true  algorithm=./hhh2         nitems=3000000    counters=12800 threshold=468       memory=18062168 outputsize=4808 exactsize=4775 time=7.989209 accuracy=0.326633 epsilon=0.000043
+check=false algorithm=./ancestry2    nitems=3000000    counters=12800 threshold=468       memory=8551800 outputsize=6581 time=5.549554 walltime=5.551000 epsilon=0.000077
+check=true  algorithm=./ancestry2    nitems=3000000    counters=12800 threshold=468       memory=8551800 outputsize=6581 exactsize=4775 time=5.549554 accuracy=0.839416 epsilon=0.000077
+check=false algorithm=./full2        nitems=3000000    counters=12800 threshold=468       memory=7113080 outputsize=4928 time=6.772058 walltime=6.773000 epsilon=0.000077
+check=true  algorithm=./full2        nitems=3000000    counters=12800 threshold=468       memory=7113080 outputsize=4928 exactsize=4775 time=6.772058 accuracy=0.781022 epsilon=0.000077
+check=false algorithm=./hhh2         nitems=3000000    counters=25600 threshold=234       memory=36084568 outputsize=8419 time=8.642880 walltime=8.645000 epsilon=0.000016
+check=true  algorithm=./hhh2         nitems=3000000    counters=25600 threshold=234       memory=36084568 outputsize=8419 exactsize=8364 time=8.642880 accuracy=0.231527 epsilon=0.000016
+check=false algorithm=./ancestry2    nitems=3000000    counters=25600 threshold=234       memory=15604600 outputsize=11306 time=5.843823 walltime=5.845000 epsilon=0.000038
+check=true  algorithm=./ancestry2    nitems=3000000    counters=25600 threshold=234       memory=15604600 outputsize=11306 exactsize=8364 time=5.843823 accuracy=0.782609 epsilon=0.000038
+check=false algorithm=./full2        nitems=3000000    counters=25600 threshold=234       memory=12405920 outputsize=8652 time=6.995371 walltime=6.997000 epsilon=0.000037
+check=true  algorithm=./full2        nitems=3000000    counters=25600 threshold=234       memory=12405920 outputsize=8652 exactsize=8364 time=6.995371 accuracy=0.723404 epsilon=0.000037
+check=false algorithm=./hhh2         nitems=3000000    counters=51200 threshold=117       memory=72129368 outputsize=14698 time=8.229665 walltime=8.231000 epsilon=0.000005
+check=true  algorithm=./hhh2         nitems=3000000    counters=51200 threshold=117       memory=72129368 outputsize=14698 exactsize=14602 time=8.229665 accuracy=0.123810 epsilon=0.000005
+check=false algorithm=./ancestry2    nitems=3000000    counters=51200 threshold=117       memory=28045480 outputsize=19282 time=5.485618 walltime=5.487000 epsilon=0.000019
+check=true  algorithm=./ancestry2    nitems=3000000    counters=51200 threshold=117       memory=28045480 outputsize=19282 exactsize=14602 time=5.485618 accuracy=0.750000 epsilon=0.000019
+check=false algorithm=./full2        nitems=3000000    counters=51200 threshold=117       memory=21551680 outputsize=15172 time=5.606336 walltime=5.607000 epsilon=0.000018
+check=true  algorithm=./full2        nitems=3000000    counters=51200 threshold=117       memory=21551680 outputsize=15172 exactsize=14602 time=5.606336 accuracy=0.815385 epsilon=0.000018
+check=false algorithm=./hhh2         nitems=3000000    counters=102400 threshold=58        memory=137141080 outputsize=24936 time=10.681480 walltime=10.684000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=102400 threshold=58        memory=137141080 outputsize=24936 exactsize=24814 time=10.681480 accuracy=0.054545 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=102400 threshold=58        memory=50223080 outputsize=32399 time=4.159671 walltime=4.160000 epsilon=0.000009
+check=true  algorithm=./ancestry2    nitems=3000000    counters=102400 threshold=58        memory=50223080 outputsize=32399 exactsize=24814 time=4.159671 accuracy=0.684211 epsilon=0.000009
+check=false algorithm=./full2        nitems=3000000    counters=102400 threshold=58        memory=37888440 outputsize=25998 time=4.589101 walltime=4.590000 epsilon=0.000009
+check=true  algorithm=./full2        nitems=3000000    counters=102400 threshold=58        memory=37888440 outputsize=25998 exactsize=24814 time=4.589101 accuracy=0.875000 epsilon=0.000009
+check=false algorithm=./hhh2         nitems=3000000    counters=1000  threshold=6000      memory=1444952 outputsize=471 time=5.811208 walltime=5.812000 epsilon=0.000293
+check=true  algorithm=./hhh2         nitems=3000000    counters=1000  threshold=6000      memory=1444952 outputsize=471 exactsize=462 time=5.811208 accuracy=0.154251 epsilon=0.000293
+check=false algorithm=./ancestry2    nitems=3000000    counters=1000  threshold=6000      memory=993040  outputsize=577 time=8.697687 walltime=8.699000 epsilon=0.000999
+check=true  algorithm=./ancestry2    nitems=3000000    counters=1000  threshold=6000      memory=993040  outputsize=577 exactsize=462 time=8.697687 accuracy=0.762034 epsilon=0.000999
+check=false algorithm=./full2        nitems=3000000    counters=1000  threshold=6000      memory=915000  outputsize=472 time=6.610519 walltime=6.612000 epsilon=0.000347
+check=true  algorithm=./full2        nitems=3000000    counters=1000  threshold=6000      memory=915000  outputsize=472 exactsize=462 time=6.610519 accuracy=0.182296 epsilon=0.000347
+check=false algorithm=./hhh2         nitems=3000000    counters=2000  threshold=3000      memory=2852952 outputsize=907 time=5.686186 walltime=5.686000 epsilon=0.000366
+check=true  algorithm=./hhh2         nitems=3000000    counters=2000  threshold=3000      memory=2852952 outputsize=907 exactsize=890 time=5.686186 accuracy=0.521717 epsilon=0.000366
+check=false algorithm=./ancestry2    nitems=3000000    counters=2000  threshold=3000      memory=1762240 outputsize=1157 time=7.140780 walltime=7.141000 epsilon=0.000499
+check=true  algorithm=./ancestry2    nitems=3000000    counters=2000  threshold=3000      memory=1762240 outputsize=1157 exactsize=890 time=7.140780 accuracy=0.801146 epsilon=0.000499
+check=false algorithm=./full2        nitems=3000000    counters=2000  threshold=3000      memory=1609000 outputsize=915 time=6.003630 walltime=6.005000 epsilon=0.000397
+check=true  algorithm=./full2        nitems=3000000    counters=2000  threshold=3000      memory=1609000 outputsize=915 exactsize=890 time=6.003630 accuracy=0.602020 epsilon=0.000397
+check=false algorithm=./hhh2         nitems=3000000    counters=4000  threshold=1500      memory=5668952 outputsize=1721 time=6.387091 walltime=6.388000 epsilon=0.000180
+check=true  algorithm=./hhh2         nitems=3000000    counters=4000  threshold=1500      memory=5668952 outputsize=1721 exactsize=1698 time=6.387091 accuracy=0.472902 epsilon=0.000180
+check=false algorithm=./ancestry2    nitems=3000000    counters=4000  threshold=1500      memory=3163680 outputsize=2223 time=6.325554 walltime=6.327000 epsilon=0.000249
+check=true  algorithm=./ancestry2    nitems=3000000    counters=4000  threshold=1500      memory=3163680 outputsize=2223 exactsize=1698 time=6.325554 accuracy=0.793213 epsilon=0.000249
+check=false algorithm=./full2        nitems=3000000    counters=4000  threshold=1500      memory=2780040 outputsize=1743 time=5.666200 walltime=5.667000 epsilon=0.000232
+check=true  algorithm=./full2        nitems=3000000    counters=4000  threshold=1500      memory=2780040 outputsize=1743 exactsize=1698 time=5.666200 accuracy=0.609266 epsilon=0.000232
+check=false algorithm=./hhh2         nitems=3000000    counters=8000  threshold=750       memory=11300952 outputsize=3193 time=6.855412 walltime=6.856000 epsilon=0.000077
+check=true  algorithm=./hhh2         nitems=3000000    counters=8000  threshold=750       memory=11300952 outputsize=3193 exactsize=3155 time=6.855412 accuracy=0.362989 epsilon=0.000077
+check=false algorithm=./ancestry2    nitems=3000000    counters=8000  threshold=750       memory=5667000 outputsize=4409 time=7.346881 walltime=7.348000 epsilon=0.000124
+check=true  algorithm=./ancestry2    nitems=3000000    counters=8000  threshold=750       memory=5667000 outputsize=4409 exactsize=3155 time=7.346881 accuracy=0.877698 epsilon=0.000124
+check=false algorithm=./full2        nitems=3000000    counters=8000  threshold=750       memory=4890120 outputsize=3253 time=6.163164 walltime=6.164000 epsilon=0.000116
+check=true  algorithm=./full2        nitems=3000000    counters=8000  threshold=750       memory=4890120 outputsize=3253 exactsize=3155 time=6.163164 accuracy=0.661572 epsilon=0.000116
+check=false algorithm=./hhh2         nitems=3000000    counters=16000 threshold=375       memory=22564952 outputsize=5800 time=9.546024 walltime=9.548000 epsilon=0.000032
+check=true  algorithm=./hhh2         nitems=3000000    counters=16000 threshold=375       memory=22564952 outputsize=5800 exactsize=5755 time=9.546024 accuracy=0.311475 epsilon=0.000032
+check=false algorithm=./ancestry2    nitems=3000000    counters=16000 threshold=375       memory=10415080 outputsize=7958 time=5.311076 walltime=5.312000 epsilon=0.000061
+check=true  algorithm=./ancestry2    nitems=3000000    counters=16000 threshold=375       memory=10415080 outputsize=7958 exactsize=5755 time=5.311076 accuracy=0.840183 epsilon=0.000061
+check=false algorithm=./full2        nitems=3000000    counters=16000 threshold=375       memory=8511840 outputsize=5956 time=5.978670 walltime=5.980000 epsilon=0.000058
+check=true  algorithm=./full2        nitems=3000000    counters=16000 threshold=375       memory=8511840 outputsize=5956 exactsize=5755 time=5.978670 accuracy=0.857143 epsilon=0.000058
+check=false algorithm=./hhh2         nitems=3000000    counters=32000 threshold=187       memory=45092952 outputsize=10078 time=8.076828 walltime=8.078000 epsilon=0.000012
+check=true  algorithm=./hhh2         nitems=3000000    counters=32000 threshold=187       memory=45092952 outputsize=10078 exactsize=9995 time=8.076828 accuracy=0.202454 epsilon=0.000012
+check=false algorithm=./ancestry2    nitems=3000000    counters=32000 threshold=187       memory=18913960 outputsize=13436 time=4.495039 walltime=4.498000 epsilon=0.000030
+check=true  algorithm=./ancestry2    nitems=3000000    counters=32000 threshold=187       memory=18913960 outputsize=13436 exactsize=9995 time=4.495039 accuracy=0.750000 epsilon=0.000030
+check=false algorithm=./full2        nitems=3000000    counters=32000 threshold=187       memory=14737080 outputsize=10398 time=8.260415 walltime=8.261000 epsilon=0.000029
+check=true  algorithm=./full2        nitems=3000000    counters=32000 threshold=187       memory=14737080 outputsize=10398 exactsize=9995 time=8.260415 accuracy=0.752212 epsilon=0.000029
+check=false algorithm=./hhh2         nitems=3000000    counters=64000 threshold=93        memory=90148952 outputsize=17556 time=8.361367 walltime=8.362000 epsilon=0.000003
+check=true  algorithm=./hhh2         nitems=3000000    counters=64000 threshold=93        memory=90148952 outputsize=17556 exactsize=17457 time=8.361367 accuracy=0.119048 epsilon=0.000003
+check=false algorithm=./ancestry2    nitems=3000000    counters=64000 threshold=93        memory=33819560 outputsize=23073 time=3.617026 walltime=3.617000 epsilon=0.000015
+check=true  algorithm=./ancestry2    nitems=3000000    counters=64000 threshold=93        memory=33819560 outputsize=23073 exactsize=17457 time=3.617026 accuracy=0.771930 epsilon=0.000015
+check=false algorithm=./full2        nitems=3000000    counters=64000 threshold=93        memory=25815800 outputsize=18201 time=7.003106 walltime=7.005000 epsilon=0.000015
+check=true  algorithm=./full2        nitems=3000000    counters=64000 threshold=93        memory=25815800 outputsize=18201 exactsize=17457 time=7.003106 accuracy=0.846154 epsilon=0.000015
+check=false algorithm=./hhh2         nitems=3000000    counters=128000 threshold=46        memory=168268248 outputsize=29407 time=8.614628 walltime=8.617000 epsilon=0.000001
+check=true  algorithm=./hhh2         nitems=3000000    counters=128000 threshold=46        memory=168268248 outputsize=29407 exactsize=29310 time=8.614628 accuracy=0.040816 epsilon=0.000001
+check=false algorithm=./ancestry2    nitems=3000000    counters=128000 threshold=46        memory=60821240 outputsize=37936 time=2.685973 walltime=2.687000 epsilon=0.000007
+check=true  algorithm=./ancestry2    nitems=3000000    counters=128000 threshold=46        memory=60821240 outputsize=37936 exactsize=29310 time=2.685973 accuracy=0.645161 epsilon=0.000007
+check=false algorithm=./full2        nitems=3000000    counters=128000 threshold=46        memory=45508040 outputsize=30843 time=4.189039 walltime=4.190000 epsilon=0.000007
+check=true  algorithm=./full2        nitems=3000000    counters=128000 threshold=46        memory=45508040 outputsize=30843 exactsize=29310 time=4.189039 accuracy=0.840000 epsilon=0.000007
+check=false algorithm=./hhh2         nitems=3000000    counters=256000 threshold=23        memory=323916248 outputsize=47962 time=8.758503 walltime=8.760000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=256000 threshold=23        memory=323916248 outputsize=47962 exactsize=47916 time=8.758503 accuracy=0.000000 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=256000 threshold=23        memory=112189760 outputsize=58510 time=1.833832 walltime=1.834000 epsilon=0.000003
+check=true  algorithm=./ancestry2    nitems=3000000    counters=256000 threshold=23        memory=112189760 outputsize=58510 exactsize=47916 time=1.833832 accuracy=0.500000 epsilon=0.000003
+check=false algorithm=./full2        nitems=3000000    counters=256000 threshold=23        memory=80795120 outputsize=50786 time=3.180394 walltime=3.181000 epsilon=0.000003
+check=true  algorithm=./full2        nitems=3000000    counters=256000 threshold=23        memory=80795120 outputsize=50786 exactsize=47916 time=3.180394 accuracy=0.769231 epsilon=0.000003
+check=false algorithm=./hhh2         nitems=3000000    counters=10000 threshold=600       memory=14119768 outputsize=3883 time=7.468850 walltime=7.470000 epsilon=0.000058
+check=true  algorithm=./hhh2         nitems=3000000    counters=10000 threshold=600       memory=14119768 outputsize=3883 exactsize=3844 time=7.468850 accuracy=0.316594 epsilon=0.000058
+check=false algorithm=./ancestry2    nitems=3000000    counters=10000 threshold=600       memory=6882640 outputsize=5256 time=5.923095 walltime=5.924000 epsilon=0.000099
+check=true  algorithm=./ancestry2    nitems=3000000    counters=10000 threshold=600       memory=6882640 outputsize=5256 exactsize=3844 time=5.923095 accuracy=0.756345 epsilon=0.000099
+check=false algorithm=./full2        nitems=3000000    counters=10000 threshold=600       memory=5797760 outputsize=3970 time=5.402162 walltime=5.403000 epsilon=0.000095
+check=true  algorithm=./full2        nitems=3000000    counters=10000 threshold=600       memory=5797760 outputsize=3970 exactsize=3844 time=5.402162 accuracy=0.760000 epsilon=0.000095
+check=false algorithm=./hhh2         nitems=3000000    counters=20000 threshold=300       memory=28199768 outputsize=6906 time=7.440896 walltime=7.442000 epsilon=0.000024
+check=true  algorithm=./hhh2         nitems=3000000    counters=20000 threshold=300       memory=28199768 outputsize=6906 exactsize=6856 time=7.440896 accuracy=0.268595 epsilon=0.000024
+check=false algorithm=./ancestry2    nitems=3000000    counters=20000 threshold=300       memory=12677960 outputsize=9348 time=6.590756 walltime=6.591000 epsilon=0.000049
+check=true  algorithm=./ancestry2    nitems=3000000    counters=20000 threshold=300       memory=12677960 outputsize=9348 exactsize=6856 time=6.590756 accuracy=0.804348 epsilon=0.000049
+check=false algorithm=./full2        nitems=3000000    counters=20000 threshold=300       memory=10193400 outputsize=7087 time=6.518216 walltime=6.520000 epsilon=0.000047
+check=true  algorithm=./full2        nitems=3000000    counters=20000 threshold=300       memory=10193400 outputsize=7087 exactsize=6856 time=6.518216 accuracy=0.871166 epsilon=0.000047
+check=false algorithm=./hhh2         nitems=3000000    counters=40000 threshold=150       memory=56359768 outputsize=12068 time=8.600239 walltime=8.602000 epsilon=0.000008
+check=true  algorithm=./hhh2         nitems=3000000    counters=40000 threshold=150       memory=56359768 outputsize=12068 exactsize=11978 time=8.600239 accuracy=0.148936 epsilon=0.000008
+check=false algorithm=./ancestry2    nitems=3000000    counters=40000 threshold=150       memory=22837520 outputsize=15946 time=4.987304 walltime=4.987000 epsilon=0.000024
+check=true  algorithm=./ancestry2    nitems=3000000    counters=40000 threshold=150       memory=22837520 outputsize=15946 exactsize=11978 time=4.987304 accuracy=0.765957 epsilon=0.000024
+check=false algorithm=./full2        nitems=3000000    counters=40000 threshold=150       memory=17655240 outputsize=12467 time=5.880603 walltime=5.882000 epsilon=0.000023
+check=true  algorithm=./full2        nitems=3000000    counters=40000 threshold=150       memory=17655240 outputsize=12467 exactsize=11978 time=5.880603 accuracy=0.821429 epsilon=0.000023
+check=false algorithm=./hhh2         nitems=3000000    counters=80000 threshold=75        memory=109902680 outputsize=20580 time=8.852480 walltime=8.855000 epsilon=0.000002
+check=true  algorithm=./hhh2         nitems=3000000    counters=80000 threshold=75        memory=109902680 outputsize=20580 exactsize=20456 time=8.852480 accuracy=0.081081 epsilon=0.000002
+check=false algorithm=./ancestry2    nitems=3000000    counters=80000 threshold=75        memory=40768800 outputsize=27520 time=3.213385 walltime=3.214000 epsilon=0.000011
+check=true  algorithm=./ancestry2    nitems=3000000    counters=80000 threshold=75        memory=40768800 outputsize=27520 exactsize=20456 time=3.213385 accuracy=0.723404 epsilon=0.000011
+check=false algorithm=./full2        nitems=3000000    counters=80000 threshold=75        memory=30952440 outputsize=21420 time=4.781306 walltime=4.783000 epsilon=0.000012
+check=true  algorithm=./full2        nitems=3000000    counters=80000 threshold=75        memory=30952440 outputsize=21420 exactsize=20456 time=4.781306 accuracy=0.833333 epsilon=0.000012
+check=false algorithm=./hhh2         nitems=3000000    counters=160000 threshold=37        memory=207182680 outputsize=34398 time=8.453561 walltime=8.455000 epsilon=0.000000
+check=true  algorithm=./hhh2         nitems=3000000    counters=160000 threshold=37        memory=207182680 outputsize=34398 exactsize=34314 time=8.453561 accuracy=0.024390 epsilon=0.000000
+check=false algorithm=./ancestry2    nitems=3000000    counters=160000 threshold=37        memory=74128760 outputsize=44320 time=2.455140 walltime=2.455000 epsilon=0.000005
+check=true  algorithm=./ancestry2    nitems=3000000    counters=160000 threshold=37        memory=74128760 outputsize=44320 exactsize=34314 time=2.455140 accuracy=0.640000 epsilon=0.000005
+check=false algorithm=./full2        nitems=3000000    counters=160000 threshold=37        memory=54767360 outputsize=36128 time=4.229585 walltime=4.230000 epsilon=0.000006
+check=true  algorithm=./full2        nitems=3000000    counters=160000 threshold=37        memory=54767360 outputsize=36128 exactsize=34314 time=4.229585 accuracy=0.850000 epsilon=0.000006
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=2     threshold=3000000   outputsize=0   time=0.178003 walltime=0.178000 epsilon=-1.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=2     threshold=3000000   memory=-1      outputsize=0   exactsize=1   time=0.178003 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=2     threshold=3000000   outputsize=0   time=0.047220 walltime=0.047000 epsilon=-1.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=2     threshold=3000000   memory=-1      outputsize=0   exactsize=1   time=0.047220 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=4     threshold=1500000   outputsize=1   time=0.166984 walltime=0.167000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=4     threshold=1500000   memory=24      outputsize=1   exactsize=1   time=0.166984 accuracy=inf epsilon=525.755231
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=4     threshold=1500000   outputsize=1   time=0.045889 walltime=0.046000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=4     threshold=1500000   memory=24      outputsize=1   exactsize=1   time=0.045889 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=8     threshold=750000    outputsize=2   time=0.163458 walltime=0.163000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=8     threshold=750000    memory=19      outputsize=2   exactsize=2   time=0.163458 accuracy=inf epsilon=37.402832
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=8     threshold=750000    outputsize=2   time=0.045946 walltime=0.046000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=8     threshold=750000    memory=19      outputsize=2   exactsize=2   time=0.045946 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=16    threshold=375000    outputsize=4   time=0.207898 walltime=0.208000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=16    threshold=375000    memory=14      outputsize=4   exactsize=4   time=0.207898 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=16    threshold=375000    outputsize=4   time=0.046024 walltime=0.046000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=16    threshold=375000    memory=14      outputsize=4   exactsize=4   time=0.046024 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=32    threshold=187500    outputsize=7   time=0.179088 walltime=0.180000 epsilon=0.000001
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=32    threshold=187500    memory=9       outputsize=7   exactsize=7   time=0.179088 accuracy=inf epsilon=654.062432
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=32    threshold=187500    outputsize=7   time=0.046964 walltime=0.047000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=32    threshold=187500    memory=9       outputsize=7   exactsize=7   time=0.046964 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=64    threshold=93750     outputsize=18  time=0.185178 walltime=0.185000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=64    threshold=93750     memory=9       outputsize=18  exactsize=17  time=0.185178 accuracy=inf epsilon=307.533995
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=64    threshold=93750     outputsize=19  time=0.048298 walltime=0.049000 epsilon=0.000001
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=64    threshold=93750     memory=9       outputsize=19  exactsize=17  time=0.048298 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=128   threshold=46875     outputsize=50  time=0.199324 walltime=0.200000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=128   threshold=46875     outputsize=46  time=0.050465 walltime=0.051000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=256   threshold=23437     outputsize=112 time=0.214845 walltime=0.215000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=256   threshold=23437     memory=4       outputsize=112 exactsize=94  time=0.214845 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=256   threshold=23437     outputsize=115 time=0.051586 walltime=0.051000 epsilon=0.000001
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=256   threshold=23437     memory=4       outputsize=115 exactsize=94  time=0.051586 accuracy=inf epsilon=317.494112
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=512   threshold=11718     outputsize=302 time=0.230680 walltime=0.231000 epsilon=0.000014
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=512   threshold=11718     outputsize=310 time=0.054337 walltime=0.054000 epsilon=0.000002
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=1024  threshold=5859      outputsize=794 time=0.267063 walltime=0.267000 epsilon=0.000010
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=1024  threshold=5859      outputsize=768 time=0.057539 walltime=0.057000 epsilon=0.000002
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=10    threshold=600000    outputsize=3   time=0.165296 walltime=0.165000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=10    threshold=600000    memory=19      outputsize=3   exactsize=3   time=0.165296 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=10    threshold=600000    outputsize=3   time=0.047774 walltime=0.048000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=10    threshold=600000    memory=19      outputsize=3   exactsize=3   time=0.047774 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=20    threshold=300000    outputsize=4   time=0.169473 walltime=0.170000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=20    threshold=300000    memory=14      outputsize=4   exactsize=4   time=0.169473 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=20    threshold=300000    outputsize=4   time=0.046456 walltime=0.047000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=20    threshold=300000    memory=14      outputsize=4   exactsize=4   time=0.046456 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=40    threshold=150000    outputsize=8   time=0.177831 walltime=0.178000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=40    threshold=150000    memory=9       outputsize=8   exactsize=8   time=0.177831 accuracy=inf epsilon=367.453046
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=40    threshold=150000    outputsize=7   time=0.047050 walltime=0.047000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=40    threshold=150000    memory=9       outputsize=7   exactsize=8   time=0.047050 accuracy=inf epsilon=231.428979
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=80    threshold=75000     outputsize=21  time=0.189979 walltime=0.190000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=80    threshold=75000     memory=9       outputsize=21  exactsize=20  time=0.189979 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=80    threshold=75000     outputsize=22  time=0.048447 walltime=0.048000 epsilon=0.000001
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=80    threshold=75000     memory=9       outputsize=22  exactsize=20  time=0.048447 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=160   threshold=37500     outputsize=57  time=0.212336 walltime=0.213000 epsilon=0.000002
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=160   threshold=37500     outputsize=56  time=0.050255 walltime=0.050000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=320   threshold=18750     outputsize=152 time=0.216417 walltime=0.216000 epsilon=0.000001
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=320   threshold=18750     outputsize=159 time=0.053045 walltime=0.053000 epsilon=0.000002
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=640   threshold=9375      outputsize=402 time=0.253918 walltime=0.254000 epsilon=0.000010
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=640   threshold=9375      outputsize=403 time=0.057463 walltime=0.058000 epsilon=0.000002
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=1280  threshold=4687      outputsize=1110 time=0.286716 walltime=0.287000 epsilon=0.000023
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=1280  threshold=4687      outputsize=1059 time=0.060649 walltime=0.060000 epsilon=0.000002
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=2560  threshold=2343      outputsize=3464 time=0.314359 walltime=0.314000 epsilon=0.000012
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=2560  threshold=2343      outputsize=3004 time=0.074131 walltime=0.074000 epsilon=0.000001
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=5120  threshold=1171      outputsize=8086 time=0.438208 walltime=0.439000 epsilon=0.000005
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=5120  threshold=1171      outputsize=8282 time=0.076471 walltime=0.077000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=10240 threshold=585       outputsize=17368 time=0.623587 walltime=0.623000 epsilon=0.000002
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=10240 threshold=585       outputsize=16705 time=0.085763 walltime=0.086000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=100   threshold=60000     outputsize=30  time=0.196612 walltime=0.197000 epsilon=0.000000
+check=true  algorithm=./RandHHH2D    nitems=3000000    counters=100   threshold=60000     memory=9       outputsize=30  exactsize=26  time=0.196612 accuracy=inf epsilon=556.523010
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=100   threshold=60000     outputsize=30  time=0.048968 walltime=0.049000 epsilon=0.000000
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=100   threshold=60000     memory=9       outputsize=30  exactsize=26  time=0.048968 accuracy=inf epsilon=651.903809
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=200   threshold=30000     outputsize=75  time=0.208969 walltime=0.209000 epsilon=0.000002
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=200   threshold=30000     outputsize=79  time=0.050601 walltime=0.051000 epsilon=0.000001
+check=true  algorithm=./10RandHHH2D  nitems=3000000    counters=200   threshold=30000     memory=4       outputsize=79  exactsize=63  time=0.050601 accuracy=-1.000000 epsilon=-1.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=400   threshold=15000     outputsize=216 time=0.228555 walltime=0.229000 epsilon=0.000018
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=400   threshold=15000     outputsize=220 time=0.054341 walltime=0.055000 epsilon=0.000004
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=800   threshold=7500      outputsize=522 time=0.255332 walltime=0.255000 epsilon=0.000008
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=800   threshold=7500      outputsize=546 time=0.056621 walltime=0.057000 epsilon=0.000004
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=1600  threshold=3750      outputsize=1557 time=0.274703 walltime=0.275000 epsilon=0.000019
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=1600  threshold=3750      outputsize=1524 time=0.069019 walltime=0.069000 epsilon=0.000002
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=3200  threshold=1875      outputsize=4702 time=0.420156 walltime=0.421000 epsilon=0.000009
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=3200  threshold=1875      outputsize=4192 time=0.070355 walltime=0.070000 epsilon=0.000001
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=6400  threshold=937       outputsize=10341 time=0.537836 walltime=0.538000 epsilon=0.000004
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=6400  threshold=937       outputsize=11347 time=0.070616 walltime=0.071000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=12800 threshold=468       outputsize=21871 time=0.585284 walltime=0.586000 epsilon=0.000001
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=12800 threshold=468       outputsize=29565 time=0.082383 walltime=0.082000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=25600 threshold=234       outputsize=39615 time=0.708702 walltime=0.709000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=25600 threshold=234       outputsize=94563 time=0.093436 walltime=0.094000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=51200 threshold=117       outputsize=73804 time=0.663432 walltime=0.664000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=51200 threshold=117       outputsize=96859 time=0.092799 walltime=0.092000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=102400 threshold=58        outputsize=122573 time=0.751747 walltime=0.752000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=102400 threshold=58        outputsize=97034 time=0.091097 walltime=0.091000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=1000  threshold=6000      outputsize=761 time=0.285521 walltime=0.285000 epsilon=0.000011
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=1000  threshold=6000      outputsize=768 time=0.061784 walltime=0.062000 epsilon=0.000003
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=2000  threshold=3000      outputsize=2305 time=0.318227 walltime=0.318000 epsilon=0.000014
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=2000  threshold=3000      outputsize=2195 time=0.061741 walltime=0.062000 epsilon=0.000001
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=4000  threshold=1500      outputsize=6122 time=0.452019 walltime=0.452000 epsilon=0.000007
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=4000  threshold=1500      outputsize=6330 time=0.076750 walltime=0.077000 epsilon=0.000001
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=8000  threshold=750       outputsize=13582 time=0.644464 walltime=0.645000 epsilon=0.000003
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=8000  threshold=750       outputsize=16542 time=0.086861 walltime=0.087000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=16000 threshold=375       outputsize=27581 time=0.825913 walltime=0.826000 epsilon=0.000001
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=16000 threshold=375       outputsize=29295 time=0.079848 walltime=0.080000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=32000 threshold=187       outputsize=48000 time=0.851948 walltime=0.852000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=32000 threshold=187       outputsize=94359 time=0.090963 walltime=0.091000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=64000 threshold=93        outputsize=91684 time=0.842950 walltime=0.843000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=64000 threshold=93        outputsize=96582 time=0.090276 walltime=0.090000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=128000 threshold=46        outputsize=191794 time=0.777641 walltime=0.778000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=128000 threshold=46        outputsize=97303 time=0.097692 walltime=0.098000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=256000 threshold=23        outputsize=447498 time=0.834605 walltime=0.835000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=256000 threshold=23        outputsize=97139 time=0.094679 walltime=0.094000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=10000 threshold=600       outputsize=17254 time=0.542727 walltime=0.543000 epsilon=0.000002
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=10000 threshold=600       outputsize=16719 time=0.075875 walltime=0.076000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=20000 threshold=300       outputsize=33647 time=0.628977 walltime=0.629000 epsilon=0.000001
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=20000 threshold=300       outputsize=29589 time=0.086826 walltime=0.087000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=40000 threshold=150       outputsize=62163 time=0.629870 walltime=0.630000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=40000 threshold=150       outputsize=95126 time=0.091593 walltime=0.092000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=80000 threshold=75        outputsize=122595 time=0.682755 walltime=0.683000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=80000 threshold=75        outputsize=97118 time=0.089948 walltime=0.090000 epsilon=0.000000
+check=false algorithm=./RandHHH2D    nitems=3000000    counters=160000 threshold=37        outputsize=191906 time=0.659219 walltime=0.659000 epsilon=0.000000
+check=false algorithm=./10RandHHH2D  nitems=3000000    counters=160000 threshold=37        outputsize=97117 time=0.090699 walltime=0.091000 epsilon=0.000000
