@@ -14,7 +14,7 @@ def parse_file(filename):
 		elif " took " in line:
 		    line_tokens = line.split()
 		    result_obj = {}
-		    num_packets, time, num_reported_hhh = re.match('([0-9]+)\s[a-z]+s\stook\s([0-9.]+)s\s\([0-9.s\-]+\)\s([0-9]+)\sHHHs', line).group(1, 2, 3)
+		    num_packets, time, num_reported_hhh = re.match('([0-9]+)\s[a-z]+\stook\s([0-9.]+)s\s\([0-9.s\-]+\)\s([0-9]+)\sHHHs', line).group(1, 2, 3)
 		    num_packets = int(num_packets)
 		    if num_packets not in results_by_packet_number:
 			results_by_packet_number[num_packets] = []
