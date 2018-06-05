@@ -19,6 +19,8 @@ For the algorithms we compared to (Partial Ancestry and Full Ancestry), please r
 5. Run `python plot_graph.py` to produce accuracy error rate (Figure 2), converage error rate (Figure 3) and false positives rate (Figure 4) graphs.
 
 ## Reproducing Figure 5
+Make sure that your CAIDA crendentials have been set as env variables.
+
 If you want to start from scratch:
 1. `cd figure5`
 2. `bash runme`
