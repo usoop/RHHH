@@ -2,9 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "prng.h"
-//#include "rand48.h"
 
-#include "alloc.h"
+
 
 #define PI 3.141592653589793
 
@@ -347,7 +346,7 @@ prng_type * prng_Init(long seed, int nric) {
   // 0 for the other one.
   prng_type * result;
 
-  result=(prng_type *) CALLOC(1,sizeof(prng_type));
+  result=(prng_type *) calloc(1,sizeof(prng_type));
 
   result->iy=0;
   result->usenric=nric;
@@ -404,7 +403,7 @@ void prng_Reseed(prng_type * prng, long seed)
 
 void prng_Destroy(prng_type * prng)
 {
-  FREE(prng);
+  free(prng);
 }
 
 /**********************************************************************/

@@ -1,6 +1,6 @@
 // Probabilistic Random Number Generators
 // Collected from various sources by Graham Cormode, 2000-2003
-// 
+
 #ifndef _PRNG_h
 #define _PRNG_h
 
