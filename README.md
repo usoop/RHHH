@@ -16,7 +16,7 @@ For the algorithms we compared to (Partial Ancestry and Full Ancestry), please r
 2. Navigate to the folder named after the trace that you want to run it on. For example, the `chicago2015/` folder will reproduce results using anonymized packet trace data collected in Chicago in 2015. 
 3. Note that you'll need CAIDA credentials (http://www.caida.org/data/passive/passive_dataset_request.xml) in order to download the packet traces. Once you've received them, type in your shell `export CAIDA_USERNAME=[your username] && export CAIDA_PASSWORD=[your password]`.
 4. Run the "error_experiments" script. It'll produce two files: trace_chicago2015_10RandHHH2D_output.txt and trace_chicago2015_RandHHH2D_output.txt, corresponding to 10-RHHH and RHHH, respectively.
-5. Run `python plot_graph.py` to produce accuracy error rate (Figure 2), converage error rate (Figure 3) and false positives rate (Figure 4) graphs.
+5. Run `python plot_graph.py` to produce accuracy error rate (Figure 2), coverage error rate (Figure 3) and false positives rate (Figure 4) graphs.
 
 ## Reproducing Figure 5
 Make sure that your CAIDA crendentials have been set as env variables.
